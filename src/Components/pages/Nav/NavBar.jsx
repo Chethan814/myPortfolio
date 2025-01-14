@@ -4,7 +4,7 @@ import React from "react";
 export default function NavBar() {
     return (
         <>
-            <div className="navbar font-nav bg-[#0F1015] text-[12px] text-[#FFFFFF] w-[90vw] mx-auto  pt-5 pb-3  ">
+            <div className="navbar font-nav bg-[#0F1015] text-[12px] text-[#FFFFFF] w-[80rem] h-[4.25rem] mx-auto  pt-[2.375rem] pb-3  ">
                 <div className=" flex justify-between items-center border border-[#5C5757] rounded-full py-4 px-14 ">
                 <div className="logo">
                     <span>Chethan KR</span>

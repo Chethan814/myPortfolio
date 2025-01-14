@@ -8,6 +8,15 @@ export default {
                 body: ["Inter", "sans-serif"],
                 nav: ["Roboto Flex", "sans-serif"],
             },
+            colors: {
+                "gradient-start": "#C4ADD2",
+                "gradient-middle": "#5B5375",
+                "gradient-end": "#0F1015",
+            },
+            backgroundImage: (theme) => ({
+                "gradient-to-b":
+                    "linear-gradient(to bottom, var(--tw-gradient-stops))",
+            }),
         },
     },
     plugins: [],
