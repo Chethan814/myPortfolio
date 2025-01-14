@@ -1,15 +1,16 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './index.css'
+import "./index.css";
+import NavBar from "./Components/pages/Nav/NavBar";
 
 function App() {
-
-
-  return (
-    <>
-      
-    </>
-  )
+    return (
+        <>
+            <div className="bg-[#0F1015] ">
+                <NavBar />
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;

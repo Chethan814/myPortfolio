@@ -6,6 +6,7 @@ export default {
             fontFamily: {
                 heading: ["Jaldi", "sans-serif"],
                 body: ["Inter", "sans-serif"],
+                nav: ["Roboto Flex", "sans-serif"],
             },
         },
     },
