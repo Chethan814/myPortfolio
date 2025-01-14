@@ -7,7 +7,6 @@ import image3 from "../../../assets/Ornament3.png";
 import image6 from "../../../assets/Ornament6.png";
 import image7 from "../../../assets/Ornament7.png";
 
-
 import mainImg from "../../../assets/homeSection/image-1.png";
 
 import Ellipse from "../../../../public/Asstes/Ellipse1.png";
@@ -15,7 +14,11 @@ import Ellipse from "../../../../public/Asstes/Ellipse1.png";
 export default function Hero() {
     return (
         <>
-        <img src={Ellipse} alt="" className=" absolute z-50 translate-y-[-90rem] translate-x-[1rem] w-[90vw] h-[60vw] blur-3xl opacity- " />
+            <img
+                src={Ellipse}
+                alt=""
+                className=" absolute z-50 translate-y-[-90rem] translate-x-[1rem] w-[90vw] h-[60vw] blur-3xl opacity- "
+            />
             <div className=" relative font-heading pb-96 ">
                 <div className=" absolute w-full ">
                     <div className=" relative ">
@@ -33,20 +36,32 @@ export default function Hero() {
                                 </p>
                             </div>
                             <div className="socail-iocon text-white font-bold text-[2.6rem] flex  ">
-                                <div className="w-[4rem] h-[4rem] text-center border-2 rounded-full mx-4">
-                                    <i class="fa-brands fa-linkedin-in px-2 bor"></i>
+                                <div className="w-[4rem] h-[4rem] text-center border-2 rounded-full mx-4 vibrate-1-normal">
+                                    <a
+                                        href="https://www.linkedin.com/in/chethan-k-r-559748229/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa-brands fa-linkedin-in px-2 bor "></i>
+                                    </a>
                                 </div>
-                                <div className="w-[4rem] h-[4rem] text-center border-2 rounded-full mx-4">
-                                    <i class="fa-brands fa-github  px-2 bor"></i>
+                                <div className="w-[4rem] h-[4rem] text-center border-2 rounded-full mx-4 vibrate-1-reverse ">
+                                    <a
+                                        href="https://github.com/Chethan814"
+                                        target="_blank"
+                                    >
+                                        <i class="fa-brands fa-github  px-2 bor"></i>
+                                    </a>
                                 </div>
-                                <div className="w-[4rem] h-[4rem] text-center border-2 rounded-full mx-4">
-                                    <i class="fa-sharp fa-solid fa-g  px-2 bor"></i>
+                                <div className="w-[4rem] h-[4rem] text-center border-2 rounded-full mx-4 vibrate-1-normal">
+                                    <a href="mailto:chethanchethu99339@gmail.com">
+                                        <i class="fa-sharp fa-solid fa-g  px-2 bor"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="">
                             <div className="hero-right absolute w-[35rem] right-28 -red-200 ">
-                                <div className=" relative w-[100vw] h-[80vh]  ">
+                                <div className=" relative w-[100vw] h-[80vh]  vibrate-3-normal">
                                     <img
                                         src={mainImg}
                                         alt=""
