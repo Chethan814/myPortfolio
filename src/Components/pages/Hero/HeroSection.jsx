@@ -1,17 +1,17 @@
 import React from "react";
 import Effect from "../../../assets/Rectangle.png";
 
-import image1 from "../../../assets/ornament 1.png";
-import image2 from "../../../assets/ornament 2.png";
-import image3 from "../../../assets/ornament 3.png";
-import image4 from "../../../assets/ornament 4.png";
-import image5 from "../../../assets/ornament 5.png";
-import image6 from "../../../assets/ornament 6.png";
-import image7 from "../../../assets/ornament 7.png";
+import image1 from "../../../assets/ornament1.png";
+import image2 from "../../../assets/ornament2.png";
+import image3 from "../../../assets/ornament3.png";
+import image4 from "../../../assets/ornament4.png";
+import image5 from "../../../assets/ornament5.png";
+import image6 from "../../../assets/ornament6.png";
+import image7 from "../../../assets/ornament7.png";
 
 import mainImg from "../../../assets/homeSection/image-1.png";
 
-import Ellipse from "../../../../public/Asstes/Ellipse 1.png";
+import Ellipse from "../../../../public/Asstes/Ellipse1.png";
 
 export default function Hero() {
     return (
