@@ -1,11 +1,11 @@
 import React from "react";
-import Effect from "../../../assets/Rectangle.png";
+import Effect from "../../../assets/homeSection/Rectangle.png";
 
-import image1 from "../../../assets/Ornament1.png";
-import image2 from "../../../assets/Ornament2.png";
-import image3 from "../../../assets/Ornament3.png";
-import image6 from "../../../assets/Ornament6.png";
-import image7 from "../../../assets/Ornament7.png";
+import image1 from "../../../assets/homeSection/Ornament1.png";
+import image2 from "../../../assets/homeSection/Ornament2.png";
+import image3 from "../../../assets/homeSection/Ornament3.png";
+import image6 from "../../../assets/homeSection/Ornament6.png";
+import image7 from "../../../assets/homeSection/Ornament7.png";
 
 import mainImg from "../../../assets/homeSection/image-1.png";
 
@@ -19,7 +19,7 @@ export default function Hero() {
                 alt=""
                 className=" absolute z-50 translate-y-[-90rem] translate-x-[1rem] w-[90vw] h-[60vw] blur-3xl opacity- "
             />
-            <div className=" relative font-heading pb-96 ">
+            <div className=" relative font-heading pb-[6rem] ">
                 <div className=" absolute w-full ">
                     <div className=" relative ">
                         <div className="hero-left absolute w-[35rem] left-28 top-[9.063rem] z-50 pl-10 translate-y-[-1.5rem]">
